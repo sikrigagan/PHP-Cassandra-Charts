@@ -8,7 +8,7 @@
 	
 	$keyspace = 'marathons';
 
-	// creating session with cassandra scopped by keyspace
+	// creating session with cassandra scope by keyspace
 	$session = $cluster->connect($keyspace);
 
 	// verifying connection with database

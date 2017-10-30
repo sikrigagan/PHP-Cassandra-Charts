@@ -11,7 +11,7 @@
 	// creating session with cassandra scopped by keyspace
 	$session = $cluster->connect($keyspace);
 
-	// validating connection with database
+	// verifying connection with database
 	if(!$session) {
 		echo "Error - Unable to connect to database";
 	}
